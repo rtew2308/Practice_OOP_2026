@@ -31,5 +31,7 @@ public class EnergyData implements Serializable {
     public String getBinaryRepresentation() {
         return binaryRepresentation;
     }
-    
+    public void setBinaryRepresentation(String binaryRepresentation) {
+        this.binaryRepresentation = binaryRepresentation;
+    }
 }
