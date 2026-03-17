@@ -1,9 +1,9 @@
 import java.io.Serializable;
 
 /**
- * Клас зберігання параметрів і результатів.
+ * Модель даних кінетичної енергії.
  */
-public class EnergyData2 implements Serializable {
+public class EnergyData4 implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -13,7 +13,7 @@ public class EnergyData2 implements Serializable {
 
     private transient String binaryRepresentation;
 
-    public EnergyData2(double mass, double velocity) {
+    public EnergyData4(double mass, double velocity) {
         this.mass = mass;
         this.velocity = velocity;
     }
@@ -25,7 +25,9 @@ public class EnergyData2 implements Serializable {
     public void setEnergy(double energy) { this.energy = energy; }
 
     public String getBinaryRepresentation() { return binaryRepresentation; }
-    public void setBinaryRepresentation(String binary) { this.binaryRepresentation = binary; }
+    public void setBinaryRepresentation(String binary) {
+        this.binaryRepresentation = binary;
+    }
 
     @Override
     public String toString() {

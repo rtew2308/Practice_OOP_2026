@@ -1,15 +1,17 @@
 /**
- * Клас обчислення кінетичної енергії.
- * Використовує агрегування.
+ * Клас обчислення.
  */
-public class KineticEnergySolver2 {
+public class KineticEnergySolver4 {
 
-    private EnergyData2 data;
+    private EnergyData4 data;
 
-    public KineticEnergySolver2(EnergyData2 data) {
+    public KineticEnergySolver4(EnergyData4 data) {
         this.data = data;
     }
 
+    /**
+     * Обчислення кінетичної енергії.
+     */
     public void calculate() {
 
         double energy = (data.getMass() * Math.pow(data.getVelocity(), 2)) / 2;
