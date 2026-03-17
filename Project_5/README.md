@@ -29,3 +29,26 @@ Undo виконує в зворотному порядку.
 - Скасувати останню команду
 - Показати результати
 - Вийти
+
+## Структура проєкту
+│
+├── EnergyData5.java
+├── KineticEnergySolver5.java
+├── ResultRepository5.java
+│
+├── ResultView.java
+├── TextResultView5.java
+├── TableResultView5.java
+│
+├── ViewFactory.java
+├── TextViewFactory5.java
+├── TableViewFactory5.java
+│
+├── Command.java             // Інтерфейс команди
+├── AddResultCommand.java    // Конкретна команда
+├── MacroCommand.java        // Макрокоманда
+├── CommandManager.java      // Singleton для undo
+│
+├── ConsoleInterface5.java
+├── TestRunner5.java
+└── README.md
