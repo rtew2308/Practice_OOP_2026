@@ -14,10 +14,10 @@
 ## Структура проєкту
 Pr_2
 │
-├── EnergyData.java
-├── KineticEnergySolver.java
-├── SerializationDemo.java
-├── TestRunner.java
+├── EnergyData.java<br>
+├── KineticEnergySolver.java<br>
+├── SerializationDemo.java<br>
+├── TestRunner.java<br>
 └── README.md
 
 ## 📌 Основні класи
