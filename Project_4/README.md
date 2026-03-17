@@ -21,3 +21,23 @@ view.display(repository);
 - масу та швидкість
 - тип відображення
 - ширину колонок
+
+## Структура проєкту
+Pr_4
+│
+├── EnergyData4.java
+├── KineticEnergySolver4.java
+├── ResultRepository4.java
+│
+├── ResultView.java
+├── TextResultView4.java
+├── TableResultView4.java      // НОВИЙ клас таблиці
+│
+├── ViewFactory.java
+├── TextViewFactory4.java
+├── TableViewFactory4.java     // НОВА фабрика
+│
+├── ConsoleInterface4.java     // Діалоговий режим
+├── TestRunner4.java
+│
+└── README.md
