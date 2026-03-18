@@ -29,23 +29,17 @@
 - середнє значення
 
 ## Структура проєкту
-KineticEnergyProject6/
-│
-├── EnergyData6.java
-├── KineticEnergySolver6.java
-├── ResultRepository6.java
-│
-├── Command.java
-├── AddResultCommand6.java
-│
-├── CommandManager6.java        // Singleton
-│
-├── WorkerThread.java          // Worker Thread
-├── TaskQueue.java             // Черга задач
-│
-├── ParallelProcessor6.java    // Паралельна обробка
-│
-├── ConsoleInterface6.java
-├── TestRunner6.java
-│
+Pr_6<br>
+│<br>
+├── EnergyData6.java<br>
+├── KineticEnergySolver6.java<br>
+├── ResultRepository6.java<br>
+├── Command.java<br>
+├── AddResultCommand6.java<br>
+├── CommandManager6.java        // Singleton<br>
+├── WorkerThread.java          // Worker Thread<br>
+├── TaskQueue.java             // Черга задач<br>
+├── ParallelProcessor6.java    // Паралельна обробка<br>
+├── ConsoleInterface6.java<br>
+├── TestRunner6.java<br>
 └── README.md

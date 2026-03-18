@@ -31,24 +31,21 @@ Undo виконує в зворотному порядку.
 - Вийти
 
 ## Структура проєкту
+Pr_5
 │
-├── EnergyData5.java
-├── KineticEnergySolver5.java
-├── ResultRepository5.java
-│
-├── ResultView.java
-├── TextResultView5.java
-├── TableResultView5.java
-│
-├── ViewFactory.java
-├── TextViewFactory5.java
-├── TableViewFactory5.java
-│
-├── Command.java             // Інтерфейс команди
-├── AddResultCommand.java    // Конкретна команда
-├── MacroCommand.java        // Макрокоманда
-├── CommandManager.java      // Singleton для undo
-│
-├── ConsoleInterface5.java
-├── TestRunner5.java
+├── EnergyData5.java<br>
+├── KineticEnergySolver5.java<br>
+├── ResultRepository5.java<br>
+├── ResultView.java<br>
+├── TextResultView5.java<br>
+├── TableResultView5.java<br>
+├── ViewFactory.java<br>
+├── TextViewFactory5.java<br>
+├── TableViewFactory5.java<br>
+├── Command.java             // Інтерфейс команди<br>
+├── AddResultCommand.java    // Конкретна команда<br>
+├── MacroCommand.java        // Макрокоманда<br>
+├── CommandManager.java      // Singleton для undo<br>
+├── ConsoleInterface5.java<br>
+├── TestRunner5.java<br>
 └── README.md

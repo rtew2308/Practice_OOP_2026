@@ -25,19 +25,15 @@ view.display(repository);
 ## Структура проєкту
 Pr_4
 │
-├── EnergyData4.java
-├── KineticEnergySolver4.java
-├── ResultRepository4.java
-│
-├── ResultView.java
-├── TextResultView4.java
-├── TableResultView4.java      // НОВИЙ клас таблиці
-│
-├── ViewFactory.java
-├── TextViewFactory4.java
-├── TableViewFactory4.java     // НОВА фабрика
-│
-├── ConsoleInterface4.java     // Діалоговий режим
-├── TestRunner4.java
-│
+├── EnergyData4.java<br>
+├── KineticEnergySolver4.java<br>
+├── ResultRepository4.java<br>
+├── ResultView.java<br>
+├── TextResultView4.java<br>
+├── TableResultView4.java      // НОВИЙ клас таблиці<br>
+├── ViewFactory.java<br>
+├── TextViewFactory4.java<br>
+├── TableViewFactory4.java     // НОВА фабрика<br>
+├── ConsoleInterface4.java     // Діалоговий режим<br>
+├── TestRunner4.java<br>
 └── README.md
