@@ -14,7 +14,7 @@ public class TestRunner {
             KineticEnergySolver solver = new KineticEnergySolver(data);
             solver.calculate();
 
-            System.out.println("До серіалізації:");
+            System.out.println("Before serialization:");
             System.out.println(data);
 
             // Збереження
@@ -26,11 +26,11 @@ public class TestRunner {
             // Завантаження
             EnergyData loaded = SerializationDemo.load("energy.dat");
 
-            System.out.println("\nПісля десеріалізації:");
+            System.out.println("\nAfter deserialization:");
             System.out.println(loaded);
 
-            System.out.println("\nЗверни увагу:");
-            System.out.println("transient поле binaryRepresentation не зберігається!");
+            System.out.println("\nNotice:");
+            System.out.println("The transient field binaryRepresentation is not saved!");
 
         } catch (Exception e) {
             e.printStackTrace();
