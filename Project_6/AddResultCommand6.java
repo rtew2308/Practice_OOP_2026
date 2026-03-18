@@ -15,4 +15,8 @@ public class AddResultCommand6 implements Command {
     public void execute() {
         repository.addResult(data);
     }
+    @Override
+    public void undo() {
+        // логіка скасування
+}
 }

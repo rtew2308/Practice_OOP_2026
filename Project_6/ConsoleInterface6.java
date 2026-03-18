@@ -16,15 +16,15 @@ public class ConsoleInterface6 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Скільки задач додати: ");
+        System.out.print("How many tasks to add: ");
         int n = scanner.nextInt();
 
         for (int i = 0; i < n; i++) {
 
-            System.out.print("Маса: ");
+            System.out.print("Mass: ");
             double m = scanner.nextDouble();
 
-            System.out.print("Швидкість: ");
+            System.out.print("Velocity: ");
             double v = scanner.nextDouble();
 
             EnergyData6 data = new EnergyData6(m, v);
