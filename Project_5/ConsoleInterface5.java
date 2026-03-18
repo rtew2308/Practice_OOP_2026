@@ -15,19 +15,19 @@ public class ConsoleInterface5 {
 
         while (!exit) {
 
-            System.out.println("\n1 - Додати результат");
+            System.out.println("\n1 - Add result");
             System.out.println("2 - Undo");
-            System.out.println("3 - Показати результати");
-            System.out.println("4 - Вийти");
+            System.out.println("3 - Show results");
+            System.out.println("4 - Exit");
 
             int choice = scanner.nextInt();
 
             switch (choice) {
 
                 case 1:
-                    System.out.print("Маса: ");
+                    System.out.print("Mass: ");
                     double m = scanner.nextDouble();
-                    System.out.print("Швидкість: ");
+                    System.out.print("Velocity: ");
                     double v = scanner.nextDouble();
 
                     EnergyData5 data = new EnergyData5(m, v);

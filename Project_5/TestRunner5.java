@@ -7,7 +7,7 @@ public class TestRunner5 {
 
         ResultRepository5 repository = ConsoleInterface5.run();
 
-        System.out.println("\nФінальні результати:");
+        System.out.println("\nFinal results:");
         repository.getResults().forEach(System.out::println);
     }
 }

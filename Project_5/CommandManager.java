@@ -27,7 +27,7 @@ public class CommandManager {
             Command cmd = history.pop();
             cmd.undo();
         } else {
-            System.out.println("Немає команд для скасування.");
+            System.out.println("There are no commands to undo.");
         }
     }
 }
