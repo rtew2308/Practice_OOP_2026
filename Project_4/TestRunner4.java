@@ -11,9 +11,9 @@ public class TestRunner4 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Оберіть тип відображення:");
-        System.out.println("1 - Текст");
-        System.out.println("2 - Таблиця");
+        System.out.println("Select a display type:");
+        System.out.println("1 - Text");
+        System.out.println("2 - Table");
 
         int choice = scanner.nextInt();
 
@@ -22,7 +22,7 @@ public class TestRunner4 {
         if (choice == 1) {
             factory = new TextViewFactory4();
         } else {
-            System.out.print("Введіть ширину колонки: ");
+            System.out.print("Enter column width: ");
             int width = scanner.nextInt();
             factory = new TableViewFactory4(width);
         }

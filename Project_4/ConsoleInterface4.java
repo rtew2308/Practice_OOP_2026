@@ -10,15 +10,15 @@ public class ConsoleInterface4 {
         Scanner scanner = new Scanner(System.in);
         ResultRepository4 repository = new ResultRepository4();
 
-        System.out.print("Скільки обчислень виконати? ");
+        System.out.print("How many calculations should be performed?");
         int count = scanner.nextInt();
 
         for (int i = 0; i < count; i++) {
 
-            System.out.print("Маса: ");
+            System.out.print("Mass: ");
             double m = scanner.nextDouble();
 
-            System.out.print("Швидкість: ");
+            System.out.print("Velocity: ");
             double v = scanner.nextDouble();
 
             EnergyData4 data = new EnergyData4(m, v);
